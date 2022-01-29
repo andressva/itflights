@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    padding: 30px 50px;
+
+    img {
+        max-height: 80px;
+    }
+
+    &-menu-icon{
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+
+        color: var(--primary);
+
+        @media (max-width: 920px) {
+            display: block;
+        }
+    }
+}
+
